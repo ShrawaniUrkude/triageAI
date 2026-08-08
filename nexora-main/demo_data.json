@@ -1,0 +1,1416 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "orders",
+      "model": "order"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "orders",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "orders",
+      "model": "refundrequest"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "support",
+      "model": "agentlog"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "support",
+      "model": "conversation"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "support",
+      "model": "message"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2qyrmsde7k0wcc0hmz41dsaiaidzsjnh",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hCgjiMu3fcMZBgYqRpISrsy3l2bdKHb_977LxVoXUpYe57DlNRFWXX43SLxI9cNpDvVW9Pc6jJPUW-K3mnXY0v5ed3dv4NCvXxrJAF0yOKAxYAVQzQARRbvfPIoXhD8mTCao0liwVBmBoETuUHQqvcH-WQ4aQ:1weuTv:GSvb-nLnpeX6C20HBBvPO7VW7mm8ORz0GnlubLaaILI",
+      "expire_date": "2026-07-15T12:55:59.965Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ovn7bmwkp2gj2gdcbi2ib3h54761wxy5",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hCgjiMu3fcMZBgYqRpISrsy3l2bdKHb_977LxVoXUpYe57DlNRFWXX43SLxI9cNpDvVW9Pc6jJPUW-K3mnXY0v5ed3dv4NCvXxrJAF0yOKAxYAVQzQARRbvfPIoXhD8mTCao0liwVBmBoETuUHQqvcH-WQ4aQ:1wesiT:-uDDstVPo2GimEvBasWVSNiq9vV_ElcJK0LEVr-xA8M",
+      "expire_date": "2026-07-15T11:02:53.613Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "zbjenrluxyiue24wpgvkvi9bf1h40ed3",
+    "fields": {
+      "session_data": ".eJxVjMEOwiAQRP-FsyGF0i149O43kN1llaqBpLQn47_bJj3oZQ7z3sxbRVyXHNcmc5ySOiurTr8dIT-l7CA9sNyr5lqWeSK9K_qgTV9rktflcP8OMra8rWWgTpiNBLelI-BkIaShYwQwDsTeDGOfrDPWUTBefG9Gx8S9hxFQfb76ijf0:1wevI7:6LZcipmQZZ6P3ZMvETmz3w1bjZJukAz2c10t22z8zgY",
+      "expire_date": "2026-07-15T13:47:51.440Z"
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 1,
+    "fields": {
+      "name": "Nexora 1 Ton 3 Star Window AC",
+      "description": "Energy efficient 1 ton window AC with 3 star rating, auto restart, sleep mode and dust filter. Ideal for rooms up to 120 sq ft.",
+      "price": "28999.00",
+      "category": "Window AC",
+      "in_stock": true
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 2,
+    "fields": {
+      "name": "Nexora 1.5 Ton 3 Star Split AC",
+      "description": "1.5 ton split AC with 3 star rating, turbo cool technology, auto clean and dehumidifier function. Ideal for rooms up to 180 sq ft.",
+      "price": "34999.00",
+      "category": "Split AC",
+      "in_stock": true
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 3,
+    "fields": {
+      "name": "Nexora 1.5 Ton 5 Star Inverter Split AC",
+      "description": "Premium 1.5 ton inverter split AC with 5 star rating, wifi control, auto diagnosis and 4 way swing. Ideal for rooms up to 180 sq ft.",
+      "price": "42999.00",
+      "category": "Split AC",
+      "in_stock": true
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 4,
+    "fields": {
+      "name": "Nexora 2 Ton 3 Star Split AC",
+      "description": "Heavy duty 2 ton split AC with 3 star rating, rapid cooling, self cleaning filter and auto restart after power cut. Ideal for rooms up to 240 sq ft.",
+      "price": "45999.00",
+      "category": "Split AC",
+      "in_stock": true
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 5,
+    "fields": {
+      "name": "Nexora 1 Ton 5 Star Inverter Split AC",
+      "description": "Compact 1 ton inverter split AC with 5 star rating, voice control, pm 2.5 filter and weekly timer. Ideal for rooms up to 120 sq ft.",
+      "price": "38999.00",
+      "category": "Split AC",
+      "in_stock": true
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 6,
+    "fields": {
+      "name": "Nexora 2 Ton 5 Star Inverter Cassette AC",
+      "description": "Commercial grade 2 ton cassette AC with 5 star inverter rating, 360 degree airflow, central drain pump and remote diagnostics. Ideal for offices up to 300 sq ft.",
+      "price": "68999.00",
+      "category": "Cassette AC",
+      "in_stock": true
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 7,
+    "fields": {
+      "name": "Nexora 1.5 Ton Portable AC",
+      "description": "No installation required portable AC with 1.5 ton capacity, dual fan speed, dehumidifier mode and 24 hour timer. Ideal for temporary cooling needs.",
+      "price": "32999.00",
+      "category": "Portable AC",
+      "in_stock": true
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 8,
+    "fields": {
+      "name": "Nexora 2 Ton Tower AC",
+      "description": "Floor standing 2 ton tower AC with inverter technology, 7 speed fan, air purifier with HEPA filter and child lock. Ideal for large halls up to 280 sq ft.",
+      "price": "55999.00",
+      "category": "Tower AC",
+      "in_stock": true
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 9,
+    "fields": {
+      "name": "Nexora AC Voltage Stabilizer 5KVA",
+      "description": "Heavy duty voltage stabilizer for ACs up to 2 ton. Protects against voltage fluctuations between 90V to 290V with time delay and digital display.",
+      "price": "4999.00",
+      "category": "Accessories",
+      "in_stock": true
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 10,
+    "fields": {
+      "name": "Nexora Universal AC Remote Control",
+      "description": "Universal remote compatible with all Nexora AC models. Features LCD display, timer, sleep mode and turbo button. Includes 2 AAA batteries.",
+      "price": "899.00",
+      "category": "Accessories",
+      "in_stock": true
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add product",
+      "content_type": [
+        "orders",
+        "product"
+      ],
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change product",
+      "content_type": [
+        "orders",
+        "product"
+      ],
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete product",
+      "content_type": [
+        "orders",
+        "product"
+      ],
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view product",
+      "content_type": [
+        "orders",
+        "product"
+      ],
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add order",
+      "content_type": [
+        "orders",
+        "order"
+      ],
+      "codename": "add_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change order",
+      "content_type": [
+        "orders",
+        "order"
+      ],
+      "codename": "change_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete order",
+      "content_type": [
+        "orders",
+        "order"
+      ],
+      "codename": "delete_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view order",
+      "content_type": [
+        "orders",
+        "order"
+      ],
+      "codename": "view_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add refund request",
+      "content_type": [
+        "orders",
+        "refundrequest"
+      ],
+      "codename": "add_refundrequest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change refund request",
+      "content_type": [
+        "orders",
+        "refundrequest"
+      ],
+      "codename": "change_refundrequest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete refund request",
+      "content_type": [
+        "orders",
+        "refundrequest"
+      ],
+      "codename": "delete_refundrequest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view refund request",
+      "content_type": [
+        "orders",
+        "refundrequest"
+      ],
+      "codename": "view_refundrequest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add conversation",
+      "content_type": [
+        "support",
+        "conversation"
+      ],
+      "codename": "add_conversation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change conversation",
+      "content_type": [
+        "support",
+        "conversation"
+      ],
+      "codename": "change_conversation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete conversation",
+      "content_type": [
+        "support",
+        "conversation"
+      ],
+      "codename": "delete_conversation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view conversation",
+      "content_type": [
+        "support",
+        "conversation"
+      ],
+      "codename": "view_conversation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add agent log",
+      "content_type": [
+        "support",
+        "agentlog"
+      ],
+      "codename": "add_agentlog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change agent log",
+      "content_type": [
+        "support",
+        "agentlog"
+      ],
+      "codename": "change_agentlog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete agent log",
+      "content_type": [
+        "support",
+        "agentlog"
+      ],
+      "codename": "delete_agentlog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view agent log",
+      "content_type": [
+        "support",
+        "agentlog"
+      ],
+      "codename": "view_agentlog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add message",
+      "content_type": [
+        "support",
+        "message"
+      ],
+      "codename": "add_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change message",
+      "content_type": [
+        "support",
+        "message"
+      ],
+      "codename": "change_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete message",
+      "content_type": [
+        "support",
+        "message"
+      ],
+      "codename": "delete_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view message",
+      "content_type": [
+        "support",
+        "message"
+      ],
+      "codename": "view_message"
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$Jo5bpSTBfP8Jg352m9fxTX$yvNWzWJ26Rg4UAdv/HQeLoeXbw3ecqAeVMVmmzpLAj8=",
+      "last_login": "2026-07-02T13:39:07.102Z",
+      "is_superuser": true,
+      "username": "djangoadmin",
+      "first_name": "Admin",
+      "last_name": "",
+      "email": "developer.rathan@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$x0iKJC7LOyofT0YKpvuijP$l/4LuY0Lq4UtgebOEqW7kxIUD4O+iJSwbX6VY1h2ddY=",
+      "last_login": "2026-07-02T13:40:04.801Z",
+      "is_superuser": false,
+      "username": "sanketsd",
+      "first_name": "sanket",
+      "last_name": "sd",
+      "email": "developer.rathan@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$fwnKG5TUoXVYamNjrYQVoo$YPizn5d0zR17+OPGgsNVPD6bD8PoJ60cVL4VKKVgzLI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "priya",
+      "first_name": "Priya",
+      "last_name": "Sharma",
+      "email": "priya.sharma@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$fwnKG5TUoXVYamNjrYQVoo$YPizn5d0zR17+OPGgsNVPD6bD8PoJ60cVL4VKKVgzLI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "arjun",
+      "first_name": "Arjun",
+      "last_name": "Nair",
+      "email": "arjun.nair@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$fKAWn740AQPdrwnMF9pu3n$JAUUJfg5I0OANY9RywE5FuOoJriew4RXzxQUAbmxnkk=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "fraud_test",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "fraud.test@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+      "user": [
+        "sanketsd"
+      ],
+      "product": 3,
+      "product_name": "Nexora 1.5 Ton 5 Star Inverter Split AC",
+      "amount": "42999.00",
+      "status": "dispatched",
+      "carrier": "BlueDart",
+      "tracking_number": "BD99281733",
+      "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+      "created_at": "2025-04-26T10:30:00Z",
+      "updated_at": "2025-04-26T10:30:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 2,
+    "fields": {
+      "user": [
+        "sanketsd"
+      ],
+      "product": 2,
+      "product_name": "Nexora 1.5 Ton 3 Star Split AC",
+      "amount": "34999.00",
+      "status": "delivered",
+      "carrier": "Delhivery",
+      "tracking_number": "DL44729103",
+      "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+      "created_at": "2025-03-11T14:00:00Z",
+      "updated_at": "2025-03-11T14:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 3,
+    "fields": {
+      "user": [
+        "sanketsd"
+      ],
+      "product": 9,
+      "product_name": "Nexora AC Voltage Stabilizer 5KVA",
+      "amount": "4999.00",
+      "status": "delivered",
+      "carrier": "Delhivery",
+      "tracking_number": "DL88103742",
+      "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+      "created_at": "2025-02-16T09:15:00Z",
+      "updated_at": "2025-02-16T09:15:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 4,
+    "fields": {
+      "user": [
+        "sanketsd"
+      ],
+      "product": 10,
+      "product_name": "Nexora Universal AC Remote Control",
+      "amount": "899.00",
+      "status": "cancelled",
+      "carrier": "",
+      "tracking_number": "",
+      "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+      "created_at": "2025-04-28T16:45:00Z",
+      "updated_at": "2025-04-28T16:45:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 5,
+    "fields": {
+      "user": [
+        "sanketsd"
+      ],
+      "product": 5,
+      "product_name": "Nexora 1 Ton 5 Star Inverter Split AC",
+      "amount": "38999.00",
+      "status": "pending",
+      "carrier": "",
+      "tracking_number": "",
+      "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+      "created_at": "2025-04-30T20:00:00Z",
+      "updated_at": "2025-04-30T20:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 6,
+    "fields": {
+      "user": [
+        "priya"
+      ],
+      "product": 6,
+      "product_name": "Nexora 2 Ton 5 Star Inverter Cassette AC",
+      "amount": "68999.00",
+      "status": "dispatched",
+      "carrier": "Ekart",
+      "tracking_number": "EK556612309",
+      "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
+      "created_at": "2025-04-27T11:00:00Z",
+      "updated_at": "2025-04-27T11:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 7,
+    "fields": {
+      "user": [
+        "priya"
+      ],
+      "product": 4,
+      "product_name": "Nexora 2 Ton 3 Star Split AC",
+      "amount": "45999.00",
+      "status": "delivered",
+      "carrier": "BlueDart",
+      "tracking_number": "BD77412390",
+      "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
+      "created_at": "2025-03-01T08:30:00Z",
+      "updated_at": "2025-03-01T08:30:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 8,
+    "fields": {
+      "user": [
+        "arjun"
+      ],
+      "product": 1,
+      "product_name": "Nexora 1 Ton 3 Star Window AC",
+      "amount": "28999.00",
+      "status": "delivered",
+      "carrier": "Delhivery",
+      "tracking_number": "DL33219876",
+      "delivery": "23, Anna Salai, Teynampet, Chennai - 600018",
+      "created_at": "2025-03-15T13:20:00Z",
+      "updated_at": "2025-03-15T13:20:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 9,
+    "fields": {
+      "user": [
+        "arjun"
+      ],
+      "product": 8,
+      "product_name": "Nexora 2 Ton Tower AC",
+      "amount": "55999.00",
+      "status": "dispatched",
+      "carrier": "BlueDart",
+      "tracking_number": "BD10293847",
+      "delivery": "23, Anna Salai, Teynampet, Chennai - 600018",
+      "created_at": "2025-04-25T17:10:00Z",
+      "updated_at": "2025-04-25T17:10:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 10,
+    "fields": {
+      "user": [
+        "priya"
+      ],
+      "product": 7,
+      "product_name": "Nexora 1.5 Ton Portable AC",
+      "amount": "32999.00",
+      "status": "pending",
+      "carrier": "",
+      "tracking_number": "",
+      "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
+      "created_at": "2025-05-01T10:00:00Z",
+      "updated_at": "2025-05-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 11,
+    "fields": {
+      "user": [
+        "fraud_test"
+      ],
+      "product": 1,
+      "product_name": "Nexora 1.5 Ton 5 Star Inverter Split AC",
+      "amount": "42999.00",
+      "status": "delivered",
+      "carrier": "BlueDart",
+      "tracking_number": "BD11111111",
+      "delivery": "22, MG Road, Pune - 411001",
+      "created_at": "2025-01-10T10:00:00Z",
+      "updated_at": "2025-01-10T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 12,
+    "fields": {
+      "user": [
+        "fraud_test"
+      ],
+      "product": 2,
+      "product_name": "Nexora 1.5 Ton 3 Star Split AC",
+      "amount": "34999.00",
+      "status": "delivered",
+      "carrier": "Delhivery",
+      "tracking_number": "DL22222222",
+      "delivery": "22, MG Road, Pune - 411001",
+      "created_at": "2025-02-05T10:00:00Z",
+      "updated_at": "2025-02-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 13,
+    "fields": {
+      "user": [
+        "fraud_test"
+      ],
+      "product": 3,
+      "product_name": "Nexora 2 Ton 3 Star Split AC",
+      "amount": "45999.00",
+      "status": "delivered",
+      "carrier": "BlueDart",
+      "tracking_number": "BD33333333",
+      "delivery": "22, MG Road, Pune - 411001",
+      "created_at": "2025-03-01T10:00:00Z",
+      "updated_at": "2025-03-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 14,
+    "fields": {
+      "user": [
+        "fraud_test"
+      ],
+      "product": 4,
+      "product_name": "Nexora 1 Ton 5 Star Inverter Split AC",
+      "amount": "38999.00",
+      "status": "delivered",
+      "carrier": "Ekart",
+      "tracking_number": "EK44444444",
+      "delivery": "22, MG Road, Pune - 411001",
+      "created_at": "2025-03-20T10:00:00Z",
+      "updated_at": "2025-03-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 15,
+    "fields": {
+      "user": [
+        "fraud_test"
+      ],
+      "product": 5,
+      "product_name": "Nexora 2 Ton 5 Star Inverter Cassette AC",
+      "amount": "68999.00",
+      "status": "delivered",
+      "carrier": "BlueDart",
+      "tracking_number": "BD55555555",
+      "delivery": "22, MG Road, Pune - 411001",
+      "created_at": "2025-04-10T10:00:00Z",
+      "updated_at": "2025-04-10T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 1,
+    "fields": {
+      "order": 3,
+      "user": [
+        "sanketsd"
+      ],
+      "reason": "Stabilizer stopped working after 3 days. AC not turning on.",
+      "status": "approved",
+      "created_at": "2025-02-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 2,
+    "fields": {
+      "order": 2,
+      "user": [
+        "sanketsd"
+      ],
+      "reason": "AC is making loud noise during operation. Not acceptable.",
+      "status": "denied",
+      "created_at": "2025-03-20T14:30:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 3,
+    "fields": {
+      "order": 7,
+      "user": [
+        "priya"
+      ],
+      "reason": "AC not cooling properly even after installation by technician.",
+      "status": "approved",
+      "created_at": "2025-03-10T09:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 4,
+    "fields": {
+      "order": 8,
+      "user": [
+        "arjun"
+      ],
+      "reason": "Window AC leaking water inside the room.",
+      "status": "pending",
+      "created_at": "2025-03-25T16:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 5,
+    "fields": {
+      "order": 1,
+      "user": [
+        "sanketsd"
+      ],
+      "reason": "AC dispatched 5 days ago but not delivered yet. Want refund.",
+      "status": "pending",
+      "created_at": "2025-04-30T11:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 6,
+    "fields": {
+      "order": 11,
+      "user": [
+        "fraud_test"
+      ],
+      "reason": "AC stopped working after 2 days",
+      "status": "approved",
+      "created_at": "2025-01-12T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 7,
+    "fields": {
+      "order": 11,
+      "user": [
+        "fraud_test"
+      ],
+      "reason": "Wrong model delivered",
+      "status": "denied",
+      "created_at": "2025-01-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 8,
+    "fields": {
+      "order": 12,
+      "user": [
+        "fraud_test"
+      ],
+      "reason": "AC making loud noise",
+      "status": "denied",
+      "created_at": "2025-02-08T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 9,
+    "fields": {
+      "order": 12,
+      "user": [
+        "fraud_test"
+      ],
+      "reason": "Product not as described",
+      "status": "denied",
+      "created_at": "2025-02-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 10,
+    "fields": {
+      "order": 13,
+      "user": [
+        "fraud_test"
+      ],
+      "reason": "AC not cooling properly",
+      "status": "approved",
+      "created_at": "2025-03-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 11,
+    "fields": {
+      "order": 14,
+      "user": [
+        "fraud_test"
+      ],
+      "reason": "Received damaged product",
+      "status": "denied",
+      "created_at": "2025-03-25T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 12,
+    "fields": {
+      "order": 15,
+      "user": [
+        "fraud_test"
+      ],
+      "reason": "AC compressor not working",
+      "status": "pending",
+      "created_at": "2025-04-12T10:00:00Z"
+    }
+  },
+  {
+    "model": "orders.refundrequest",
+    "pk": 13,
+    "fields": {
+      "order": 13,
+      "user": [
+        "fraud_test"
+      ],
+      "reason": "Want to return \u2014 changed my mind",
+      "status": "denied",
+      "created_at": "2025-03-10T10:00:00Z"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2026-07-01T11:30:45.566Z",
+      "user": [
+        "djangoadmin"
+      ],
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "object_id": "2",
+      "object_repr": "sanketsd",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2026-07-01T11:31:02.414Z",
+      "user": [
+        "djangoadmin"
+      ],
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "object_id": "2",
+      "object_repr": "sanketsd",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2026-07-01T11:31:09.996Z",
+      "user": [
+        "djangoadmin"
+      ],
+      "content_type": [
+        "support",
+        "conversation"
+      ],
+      "object_id": "1",
+      "object_repr": "Conversation #1 - sanketsd / Order #1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2026-07-01T11:33:03.272Z",
+      "user": [
+        "djangoadmin"
+      ],
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "object_id": "5",
+      "object_repr": "fraud_test",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2026-07-02T13:35:01.171Z",
+      "user": [
+        "djangoadmin"
+      ],
+      "content_type": [
+        "support",
+        "conversation"
+      ],
+      "object_id": "5",
+      "object_repr": "Conversation #5 - sanketsd / Order #2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2026-07-02T13:35:01.171Z",
+      "user": [
+        "djangoadmin"
+      ],
+      "content_type": [
+        "support",
+        "conversation"
+      ],
+      "object_id": "4",
+      "object_repr": "Conversation #4 - sanketsd / Order #4",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2026-07-02T13:35:01.171Z",
+      "user": [
+        "djangoadmin"
+      ],
+      "content_type": [
+        "support",
+        "conversation"
+      ],
+      "object_id": "3",
+      "object_repr": "Conversation #3 - sanketsd / Order #3",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2026-07-02T13:35:01.171Z",
+      "user": [
+        "djangoadmin"
+      ],
+      "content_type": [
+        "support",
+        "conversation"
+      ],
+      "object_id": "2",
+      "object_repr": "Conversation #2 - sanketsd / Order #1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  }
+]
